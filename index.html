@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSI-SPIT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Custom CSS -->
+    <link href="/css/scrolling-nav.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/my-slider.css"/>
+<script src="/js/ism-2.1.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/scrolling-nav.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	
+	<style>
+	.container .ism-slider { margin-left: auto; margin-right: auto; }
+        a:hover{
+            font-size: 30px;
+            font-family: cursive;
+        }
+    svg {
+        width: 600px;
+        height: 100px;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        background: black;
+    }
+ </style>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#FFD700; color: black">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-weight:bold; color:black;">CSI-S.P.I.T</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="font-weight:bold; font-size: 20px">
+                <ul class="nav navbar-nav"><!--font size="10px" color="black"-->
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top" style="color:black"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about" style="color:black">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/committee.html" style="color:black">Committee</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="/events.html" style="color:black; font-weight: bold;">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact" style="color:black; "><b>Contact</b></a>
+                    </li>
+                    </font>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section  class="intro-section" style="background-color: black">
+        <div class="container">
+            <div class="row" id="intro">
+				<div class="col-lg-12">
+				<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+       width="600px" height="120px" viewBox="0 0 600 100">
+
+    <style type="text/css">
+
+      <![CDATA[
+
+	text {
+        filter: url(#filter);
+        fill: white;
+        font-family: 'Share Tech Mono', sans-serif;
+        font-size: 100px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      ]]>
+    </style>
+
+    <defs>
+
+      <filter id="filter">
+        <feFlood flood-color="black" result="black" />
+        <feFlood flood-color="red" result="flood1" />
+        <feFlood flood-color="limegreen" result="flood2" />
+        <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+        <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+        <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+        <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+        <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+        <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+        <feMerge x="0" width="100%" result="merge1">
+          <feMergeNode in = "black" />
+          <feMergeNode in = "comp1" />
+          <feMergeNode in = "off1b" />
+
+          <animate
+                  attributeName="y"
+                  id = "y"
+                  dur ="4s"
+
+                  values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+                  keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                  repeatCount = "indefinite" />
+
+          <animate attributeName="height"
+                   id = "h"
+                   dur ="4s"
+
+                   values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+                   keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                   repeatCount = "indefinite" />
+        </feMerge>
+
+
+        <feMerge x="0" width="100%" y="100px" height="65px" result="merge2">
+          <feMergeNode in = "black" />
+          <feMergeNode in = "comp2" />
+          <feMergeNode in = "off2b" />
+
+          <animate attributeName="y"
+                   id = "y"
+                   dur ="4s"
+                   values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;'
+
+                   keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+                   repeatCount = "indefinite" />
+
+          <animate attributeName="height"
+                   id = "h"
+                   dur = "4s"
+
+                   values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+                   keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+
+                   repeatCount = "indefinite" />
+        </feMerge>
+
+        <feMerge>
+          <feMergeNode in="SourceGraphic" />
+
+          <feMergeNode in="merge1" />
+          <feMergeNode in="merge2" />
+
+        </feMerge>
+      </filter>
+
+    </defs>
+
+<g>
+    <text x="0" y="59" style="font-family: Tangerine; font-size:78px ">Computer Society of India</text>
+    </g>
+  </svg>
+
+<div class="ism-slider" data-play_type="loop" data-interval="3000" data-image_fx="zoomrotate" id="csi-slider">
+  <ol>
+    <li>
+      <img src="/csipics/images/first.jpg">
+    </li>
+    <li>
+      <img src="/csipics/images/second.jpg">
+    </li>
+    <li>
+      <img src="/csipics/images/third.jpg">
+    </li>
+    <li>
+      <img src="/csipics/images/forth.jpg">
+    </li>
+    <li>
+      <img src="/csipics/images/fifth.jpg">
+    </li>
+  </ol>
+  <br><br><br>
+</div>
+
+
+				</div>
+			</div>
+                
+        </div>
+		
+    </section>
+
+    
+	<!-- About Section -->
+    <section id="about" class="about-section">
+	<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="600px" height="100px" viewBox="0 0 600 100">
+
+    <style type="text/css">
+
+        <![CDATA[
+
+	text {
+            filter: url(#filter);
+            fill: white;
+            font-family: 'Share Tech Mono', sans-serif;
+            font-size: 100px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        ]]>
+    </style>
+
+    <defs>
+
+        <filter id="filter">
+            <feFlood flood-color="black" result="black" />
+            <feFlood flood-color="red" result="flood1" />
+            <feFlood flood-color="limegreen" result="flood2" />
+            <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+            <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+            <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+            <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+            <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+            <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+            <feMerge x="0" width="100%" result="merge1">
+                <feMergeNode in = "black" />
+                <feMergeNode in = "comp1" />
+                <feMergeNode in = "off1b" />
+
+                <animate
+                        attributeName="y"
+                        id = "y"
+                        dur ="4s"
+
+                        values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+                        keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                        repeatCount = "indefinite" />
+
+                <animate attributeName="height"
+                         id = "h"
+                         dur ="4s"
+
+                         values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+                         keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                         repeatCount = "indefinite" />
+            </feMerge>
+
+
+            <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+                <feMergeNode in = "black" />
+                <feMergeNode in = "comp2" />
+                <feMergeNode in = "off2b" />
+
+                <animate attributeName="y"
+                         id = "y"
+                         dur ="4s"
+                         values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;'
+
+                         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+                         repeatCount = "indefinite" />
+
+                <animate attributeName="height"
+                         id = "h"
+                         dur = "4s"
+
+                         values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+                         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+
+                         repeatCount = "indefinite" />
+            </feMerge>
+
+            <feMerge>
+                <feMergeNode in="SourceGraphic" />
+
+                <feMergeNode in="merge1" />
+                <feMergeNode in="merge2" />
+
+            </feMerge>
+        </filter>
+
+    </defs>
+
+<g>
+    <text x="160" y="100" style="font-family: Tangerine">About Us</text>
+    </g>
+</svg><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <center><p style="color:white; font-size: 20px; font-weight: bold">An organization of enthusiastic who want to make a difference in the field of computer technology</p></center><br>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: black; text-align: center">
+        <h4 class="panel-title" style="color: white">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is C.S.I. ?</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">The seed for the Computer Society of India (CSI) was first sown in the year 1965 with a handful of IT 
+		enthusiasts who were a computer user group and felt the need to organize their activities. They also wanted to share their knowledge 
+		and exchange ideas on what they felt was a fast emerging sector. Today the CSI takes pride in being the largest and most professionally 
+		managed association of and for IT professionals in India. The purposes of the Society are scientific and educational directed towards the 
+		advancement of the theory and practice of computer science & IT.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: black;  text-align: center">
+        <h4 class="panel-title" style="color: white">
+         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">So who are we?</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">We are the C.S.I. Student Branch of Sardar Patel Institute of Technology. Formed in 2009, CSI-SPIT is an 
+		altruistic society in college initiating workshops, events and seminars to explore the cornucopia of information other than the regular 
+		curriculum offered by the university. As part of our endeavour to bring together and assimilate various aspects of technical and 
+		non-technical education, number of seminars and workshops are conducted by professionals imparting knowledge to the students of the college. 
+		We also encourage member students to organize events by themselves so that it imbibes in them the skills of management, self-confidence and 
+		helps to exchange views and information, learn and share ideas. An annual 10 day industrial visit cum trip is organized to different parts 
+		of the country.This facilitates the students' interaction with the industries in different parts of the country and gives them the valuable 
+		experience of witnessing the ground realities of the work environment intertwined with the pleasures of visiting the most beautiful places 
+		in India. Every person on this planet is blessed with some or the other quality and is dextrous at something. We at CSI-SPIT aim at exploring 
+		the acme within every individual so that they can realize their dreams in reality..</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: black;  text-align: center">
+        <h4 class="panel-title" style="color: white">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">C.S.I. - Mumbai</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">The Computer Society of India is a non-Profit professional meet to exchange views and information 
+		learn and share ideas. The wide spectrum of members is committed to the advancement of the theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. The Society also encourages and assists professionals to maintain the integrity and competence of the profession and fosters a sense of partnership amongst members. Besides the activities held at the Chapter and Student Branches, the Society also conducts periodic conferences, seminars at Regional and Divisional levels.</div>
+      </div>
+    </div>
+  </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+	
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section"  style="background-image: url('/csipics/contact.png'); background-size: 100% 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+		<div class="col-lg-12 col-ms-12 col-xs-12 aligning">
+			<h1 style="font-family: Tangerine; font-size: 120px; text-shadow: 5px 5px 5px #aaa; font-weight: bold;">We are here!</h1>
+		</div>
+	</div><br><br><br>
+	
+	<div class="row">
+		<div class="col-lg-3 col-ms-3 col-xs-12" style="text-align: right">
+
+		</div>
+		<div class="col-lg-3 col-ms-3 col-xs-12">
+			<ul class="list-unstyled" style="font-size: 20px; color: black">
+						<li><strong>
+						C.S.I - Sardar Patel Institute of Tecnology<br /> 
+										Munshi Nagar, Andheri<br /> 
+										Mumbai (Maharashtra) <br /> 
+										India<br /><br /> </strong>
+						</li> 
+			</UL>
+		</div>
+	
+		<div class="col-lg-6 col-ms-6 col-xs-12 aligning">
+			<ul class="list-unstyled"> 
+				<li><strong><br><p class="text-info" style="font-size: 20px; color:black; font-weight: bold">Email - spit.csi@gmail.com</p> </strong></ul></li>
+			</ul>
+		</div>
+	</div>
+			
+			
+            </div>
+        </div>
+    </section>
+	
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/scrolling-nav.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

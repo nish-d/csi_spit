@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="/css/style-team.css">
+	<link rel="stylesheet" href="/css/style-events.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Satisfy" />
+	<link href="/css/scrolling-nav.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="/js/prefixfree.min.js"></script>
+	<title>Committee</title>
+	<style>
+		a:hover{
+			font-size: 30px;
+			font-family: cursive;
+		}
+		/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+		@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+		body {
+			background: black;
+		}
+
+		svg {
+			width: 600px;
+			height: 120px;
+			display: block;
+			position: relative;
+			overflow: hidden;
+			margin: 0 auto;
+			background: black;
+		}
+		img{
+
+			height:114px;
+			width: 130px;
+		}
+		img:hover{
+			height:144px ;
+			width: 160px;
+		}
+
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#FFD700; color: black">
+	<div class="container">
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand page-scroll" href="/index.html#page-top" style="font-weight:bold; color:black;">CSI-S.P.I.T</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse" style="font-weight:bold; font-size: 20px">
+			<ul class="nav navbar-nav"><!--font size="10px" color="black"-->
+				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+				<li class="hidden">
+					<a class="page-scroll" href="/index.html#page-top" style="color:black"></a>
+				</li>
+				<li>
+					<a class="page-scroll" href="/index.html#about" style="color:black">About</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="/committee.html" style="color:black">Committee</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="/events.html" style="color:black; font-weight: bold;">Events</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="/index.html#contact" style="color:black; "><b>Contact</b></a>
+				</li>
+				</font>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+</nav>
+<br><br><br>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 width="600px" height="100px" viewBox="0 0 600 100">
+
+	<style type="text/css">
+
+		<![CDATA[
+
+	text {
+			filter: url(#filter);
+			fill: white;
+			font-family: 'Share Tech Mono', sans-serif;
+			font-size: 100px;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		]]>
+	</style>
+
+	<defs>
+
+		<filter id="filter">
+			<feFlood flood-color="black" result="black" />
+			<feFlood flood-color="red" result="flood1" />
+			<feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+			<feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+			<feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+			<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate
+						attributeName="y"
+						id = "y"
+						dur ="4s"
+
+						values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+						keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+						repeatCount = "indefinite" />
+
+				<animate attributeName="height"
+						 id = "h"
+						 dur ="4s"
+
+						 values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+						 keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+						 repeatCount = "indefinite" />
+			</feMerge>
+
+
+			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y"
+						 id = "y"
+						 dur ="4s"
+						 values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;'
+
+						 keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+						 repeatCount = "indefinite" />
+
+				<animate attributeName="height"
+						 id = "h"
+						 dur = "4s"
+
+						 values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+						 keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+
+						 repeatCount = "indefinite" />
+			</feMerge>
+
+			<feMerge>
+				<feMergeNode in="SourceGraphic" />
+
+				<feMergeNode in="merge1" />
+				<feMergeNode in="merge2" />
+
+			</feMerge>
+		</filter>
+
+	</defs>
+
+	<g>
+		<text x="150" y="100" style="font-family: Tangerine">Committee</text>
+	</g>
+</svg>
+	<ul id="messages">
+
+		<!-- 1 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/suyash.jpg" />
+			</div>
+			<div class="content">
+				<h3>
+					Suyash Thakare
+					<b>Chairperson</b>
+				</h3>
+
+			</div>
+		</li>
+		<!-- 2 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/prachi.jpg"  />
+
+			</div>
+			<div class="content">
+				<h3>
+					Prachi Jaiswal
+					<b>Vice Chairperson</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 3 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/chaitanya.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Chaitanya Bapat
+					<b>Secretary</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 4 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/jaybhatt.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Jay Bhatt
+					<b>Technical Head</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 5 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/piyush.jpg"  />
+
+			</div>
+			<div class="content">
+				<h3>
+					Piyush Saravagi
+					<b>Technical Head</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 6 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/darshil.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Darshil Pandya
+					<b>PR Head</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 7-->
+		<li>
+			<div class="infos">
+				<img src="/csipics/shri.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Shri Bhamare
+					<b>Treasurer</b>
+				</h3>
+
+			</div>
+		</li>
+
+		<!-- 8 -->
+		<li>
+			<div class="infos">
+				<img src="/csipics/rohit.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Rohit Naik
+					<b>Events Head</b>
+				</h3>
+
+			</div>
+		</li>
+		<!-- 9-->
+		<li background="brown">
+			<div class="infos">
+				<img src="/csipics/uday.jpg"   />
+
+			</div>
+			<div class="content">
+				<h3>
+					Uday Verma
+					<b>Creative Head</b>
+				</h3>
+
+			</div>
+		</li>
+
+	</ul>
+
+        <script src="/js/index-team.js"></script>
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/scrolling-nav.js"></script>
+
+  </body>
+</html>
